@@ -1,0 +1,62 @@
+{% extends 'ProyectowebApp/base.html' %}
+
+{% load static %}
+
+<!-- Bootstrap -->
+<!--<link href="{% static 'ProyectowebApp/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css' %}" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+-->
+<!-- Fonts 
+<link href="https://fonts.googleapis.com/css?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+-->
+<!-- Styles 
+<link href="{% static 'ProyectowebApp/css/gestion.css' %}" rel="stylesheet">
+-->
+
+{% block content %}
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProyectowebApp/img/principal.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Puntualidad</span>
+            <span class="section-heading-lower">El mejor stock</span>
+          </h2>
+          <p class="mb-3">En la puertra de tu casa en menos de 48 h con el envío normal. En menos de 24 h con el envío express.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Compromiso total</span>
+                <span class="section-heading-lower">Garantizado</span>
+              </h2>
+              <p class="mb-0">Con más de 75 años de experiencia a nuestras espaldas, desde Gestión de Pedidos tenemos los conocimientos y herramientas necesarios para llevar cualquier objeto a la puerta de su casa con puntualidad y profesionalidad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- Bootstrap
+<script src="{% static 'https://code.jquery.com/jquery-3.3.1.slim.min.js' %}" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="{% static 'https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js' %}" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="{% static 'https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js' %}" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+-->
+{% endblock %}
